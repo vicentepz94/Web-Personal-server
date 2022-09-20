@@ -1,0 +1,4 @@
+Respecto a mongoose:
+-Mongoose 6 always behaves as if useNewUrlParser, useUnifiedTopology, and useCreateIndex are true, 
+and useFindAndModify is false. Please remove these options from your code.
+-Se elminan las opciones de boolean que sugiere el video.

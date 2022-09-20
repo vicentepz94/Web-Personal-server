@@ -1,0 +1,4 @@
+RESPECTO A bcrypt:
+-En controllers/user.js Se cambia el const bcrypt = require('bcrypt-nodejs '); a const bcrypt = require('bcrypt');
+-En controllers/user.js Se llama a la funcion const saltRounds = 10; y el codigo para encriptar queda de la 
+siguiente manera: bcrypt.hash(password, saltRounds, function (err, hash) {"....."}
